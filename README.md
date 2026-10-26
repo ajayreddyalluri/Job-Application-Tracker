@@ -1,42 +1,34 @@
 # Job Application Tracker
 
-A React-based web application to organize job applications, track hiring progress, and manage your job search in one place.
+A React application for managing job applications and tracking recruitment progress.
 
 ## Features
 
-- **Add applications:** Record company name, job role, application date, status, and notes.
-- **Edit and delete:** Keep application details up to date.
-- **Search:** Find applications by company or job role.
-- **Filter:** Filter applications by hiring status.
-- **Dashboard statistics:** View total applications, interviews, and offers.
-- **Persistent storage:** Save application data in your browser using localStorage.
-- **Responsive interface:** Use the tracker on desktop and mobile screens.
+- Add, edit, and delete job applications
+- Track company names, job roles, application dates, and notes
+- Track statuses: Applied, Assessment, Interview, Offer, and Rejected
+- Search by company or job role
+- Filter applications by status
+- Dashboard statistics for applications, interviews, and offers
+- Save application data in browser localStorage
+- Responsive user interface
 
-## Technology Stack
+## Tech Stack
 
 - React
 - JavaScript
 - Vite
 - CSS
-- Browser localStorage
+- localStorage
 
-## Getting Started
+## Installation
 
-### Prerequisites
-
-Install [Node.js](https://nodejs.org/) and npm.
-
-### Installation
+Make sure Node.js and npm are installed.
 
 Clone the repository:
 
 ```bash
 git clone https://github.com/ajayreddyalluri/Job-Application-Tracker.git
-```
-
-Enter the project directory:
-
-```bash
 cd Job-Application-Tracker
 ```
 
@@ -52,27 +44,19 @@ Start the development server:
 npm run dev
 ```
 
-Open the local URL shown in your terminal, usually `http://localhost:5173/`.
-
-## How to Use
-
-1. Enter the company and job role.
-2. Choose the application status and date.
-3. Add optional notes.
-4. Add the application to your tracker.
-5. Search, filter, edit, or delete applications as needed.
+Open the local URL printed in the terminal, usually `http://localhost:5173/`.
 
 ## Data Storage
 
-Application records are stored in the current browser's localStorage. They are not synchronized between browsers or devices, and clearing browser data may remove them.
+Application data is stored in the browser's localStorage. It is not synchronized across devices, and clearing browser data may remove it.
 
 ## Future Improvements
 
-- Backend API and database integration
+- Backend API and database
 - User authentication
-- Cloud synchronization
+- Cloud data synchronization
 - Application reminders
-- Deployment as a live web application
+- Live deployment
 
 ## Author
 
